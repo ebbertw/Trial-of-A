@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://762s3op7ejb3"
-path="res://.godot/imported/jump-to-yellow.png-e9a6c7ecced597f5d1d5b7912c6d6868.ctex"
+path="res://.godot/imported/jump-to-yellow.png-b1ebdcb51a71d43ecb66a2f4ea1f92af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-character-template-0c0574aa1e77a79fc571fccfb427a87397011124/addons/bluebrains_character_controller/icons/jump-to-yellow.png"
-dest_files=["res://.godot/imported/jump-to-yellow.png-e9a6c7ecced597f5d1d5b7912c6d6868.ctex"]
+source_file="res://icons/jump-to-yellow.png"
+dest_files=["res://.godot/imported/jump-to-yellow.png-b1ebdcb51a71d43ecb66a2f4ea1f92af.ctex"]
 
 [params]
 

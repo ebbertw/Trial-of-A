@@ -1,0 +1,11 @@
+res://Scenes/game.tscn
+res://sprites/sprite_frames.tres
+res://scripts/camera_area.gd
+res://scripts/camera_snapping.gd
+res://brackeys_platformer_assets/brackeys_platformer_assets/LICENSE & CREDITS.txt
+res://Scenes/camera_area.tscn
+res://character_controller/example_character_controller.tscn
+res://character_controller/2d_character_controller.gd
+res://character_controller/2d_character_controller_base.tscn
+res://character_controller/state_machine/state_machine.gd
+res://components/ledge_detector.gd

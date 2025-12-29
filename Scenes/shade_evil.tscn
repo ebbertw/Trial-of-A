@@ -1,6 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://ckwcexn5nfba5"]
 
-[ext_resource type="Texture2D" uid="uid://cv65v5ne116sc" path="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/Shade evil.png" id="1_do7md"]
+[ext_resource type="Texture2D" uid="uid://cv65v5ne116sc" path="res://sprites/brackeys_platformer_assets/sprites/Shade evil.png" id="1_do7md"]
+
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_umw3l"]
 atlas = ExtResource("1_do7md")

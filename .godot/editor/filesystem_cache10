@@ -1,0 +1,84 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1767001405
+icon.svg::CompressedTexture2D::5362848245438219670::1766975184::1766975449::1::::<><><>0<>0<>7938ec420f38cbcd023a813ee443b4d0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+TRIAL OF A.png::CompressedTexture2D::5139912486096717629::1766975184::1766975451::1::::<><><>0<>0<>31ac74f6b65a1f22fdfa448dfbf78eb9<>res://.godot/imported/TRIAL OF A.png-e6a61fa9ee41fab71793c9ea606d995d.ctex::
+::res://brackeys_platformer_assets/::1767001212
+::res://character_controller/::1767001212
+2d_character_controller.gd::GDScript::2858346881058662303::1767001129::0::1::::PlayerCharacterBody2D<>CharacterBody2D<><>0<>0<><>::
+2d_character_controller.tscn::PackedScene::1813640493772185566::1767000804::0::1::::<><><>0<>0<><>::uid://c3ixhnu256fxs::::res://sprites/Character Animations/sprite_frames.tres<>uid://bgyus5ghfgqd0::::res://character_controller/2d_character_controller.gd<>res://animated_sprite_2d_tool.gd<>uid://dg5r27f36mn07::::res://components/ledge_detector.tscn<>uid://b4u3gi8hgjlet::::res://character_controller/state_machine/state_machine.gd<>uid://dl7ctbe0cv3c2::::res://components/input_map.gd<>uid://duwoy3nkmvy38::::res://components/movement_variables.gd<>uid://cwdjqvddxjqqg::::res://character_controller/state_machine/states/grounded.gd<>uid://dadlfrrf4y021::::res://character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://character_controller/state_machine/states/jump_air.gd<>uid://b8ub53csc0twm::::res://components/state_machine_variables.gd<>uid://bnbe7mxk8wsky::::res://character_controller/state_machine/states/airborne.gd<>uid://ke7ebekdcqfn::::res://character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://character_controller/state_machine/magic_transition.gd<>uid://dukw84gcuvd3d::::res://character_controller/state_machine/states/hang.gd<>uid://bdlrly1hkn1qa::::res://character_controller/state_machine/dynamic_data_row.gd<>uid://byfliumen4dwv::::res://character_controller/state_machine/states/wall_slide.gd
+2d_character_controller_base.tscn::PackedScene::1490772616616093676::1767001212::0::1::::<><><>0<>0<><>::uid://bgyus5ghfgqd0::::res://character_controller/2d_character_controller.gd<>uid://dl7ctbe0cv3c2::::res://components/input_map.gd<>uid://bee5ow8sg1y4f::::res://sprites/brackeys_platformer_assets/sprites/knight.png<>uid://b8ub53csc0twm::::res://components/state_machine_variables.gd<>uid://duwoy3nkmvy38::::res://components/movement_variables.gd<>uid://b4u3gi8hgjlet::::res://character_controller/state_machine/state_machine.gd<>uid://dg5r27f36mn07::::res://components/ledge_detector.tscn
+example_character_controller.tscn::PackedScene::1242622232217166029::1767000804::0::1::::<><><>0<>0<><>::uid://vie2pd3qfb5e::::res://character_controller/2d_character_controller_base.tscn<>uid://c3ixhnu256fxs::::res://sprites/Character Animations/sprite_frames.tres<>uid://cwdjqvddxjqqg::::res://character_controller/state_machine/states/grounded.gd<>uid://ke7ebekdcqfn::::res://character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://character_controller/state_machine/magic_transition.gd<>uid://bdlrly1hkn1qa::::res://character_controller/state_machine/dynamic_data_row.gd<>uid://dadlfrrf4y021::::res://character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://character_controller/state_machine/states/jump_air.gd<>uid://bnbe7mxk8wsky::::res://character_controller/state_machine/states/airborne.gd<>uid://dukw84gcuvd3d::::res://character_controller/state_machine/states/hang.gd<>uid://byfliumen4dwv::::res://character_controller/state_machine/states/wall_slide.gd
+::res://character_controller/state_machine/::1767001425
+dynamic_data_row.gd::GDScript::2620748503569110640::1766975184::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
+input_transition.gd::GDScript::712096093501737719::1766975184::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
+magic_transition.gd::GDScript::191043130513532881::1766975184::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
+state.gd::GDScript::4363396357744232197::1766975184::0::1::::CharacterControllerState<>Node<><>0<>1<><>::
+state_machine.gd::GDScript::4464895966329905551::1767001425::0::1::::CharacterControllerStateMachine<>CharacterControllerState<><>0<>1<><>::
+transition.gd::GDScript::1358703449678615030::1766975184::0::1::::StateTransition<>Node<><>0<>1<><>::
+::res://character_controller/state_machine/states/::1766975184
+airborne.gd::GDScript::3301240708427646836::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+grounded.gd::GDScript::6323765194114651454::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+hang.gd::GDScript::8585078938984680431::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+jump.gd::GDScript::1868761230054743121::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+jump_air.gd::GDScript::6100312264205990115::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+one_shot.gd::GDScript::7166132919656969604::1766975184::0::1::::OneShotState<>CharacterControllerState<><>0<>1<><>::
+wall_slide.gd::GDScript::4081958062252761413::1766975184::0::1::::<>CharacterControllerState<><>0<>1<><>::
+::res://components/::1767001467
+input_map.gd::GDScript::7997554843139282103::1766975184::0::1::::InputMapNode<>Node<><>0<>0<><>::
+ledge_detector.gd::GDScript::6467932707580828766::1767001467::0::1::::LedgeDetector<>Node2D<><>0<>0<><>::
+ledge_detector.tscn::PackedScene::7643408540627085366::1766975184::0::1::::<><><>0<>0<><>::uid://cyfd53fuwelk5::::res://addons/bluebrains_character_controller/components/ledge_detector.gd
+movement_variables.gd::GDScript::8609349622589219745::1766975184::0::1::::MovementVariables<>Node<><>0<>0<><>::
+state_machine_variables.gd::GDScript::4744055844204207084::1766975184::0::1::::BehaviourVariables<>Node<><>0<>0<><>::
+::res://helpers/::1766975184
+static_configuration_warning.gd::GDScript::5388576979569073463::1766975184::0::1::::ConfigurationWarningHelper<>Object<><>0<>0<><>::
+::res://icons/::1766975449
+diamond-jump-to-yellow.png::CompressedTexture2D::6176816225251503415::1766975184::1766975449::1::::<><><>0<>0<>2b6a256918bf70199ff8195868c08aad<>res://.godot/imported/diamond-jump-to-yellow.png-0534aefe76eb5e5ab842ab581fba73a5.ctex::
+diamond-yellow.png::CompressedTexture2D::4044719620008190239::1766975184::1766975449::1::::<><><>0<>0<>e785680cdd9127b68d0f8c3ac4b9a5bb<>res://.godot/imported/diamond-yellow.png-ec04d4e5e91fe4f0357abcda1268445c.ctex::
+jump-to-yellow.png::CompressedTexture2D::2311711702893399650::1766975184::1766975449::1::::<><><>0<>0<>02884a68908ac693abfc548704a51b2e<>res://.godot/imported/jump-to-yellow.png-b1ebdcb51a71d43ecb66a2f4ea1f92af.ctex::
+multi-diamonds-yellow.png::CompressedTexture2D::8450732681527182792::1766975184::1766975449::1::::<><><>0<>0<>dfb84c5d3a17a031b04a4d522cd504d6<>res://.godot/imported/multi-diamonds-yellow.png-f123065251a0ce15154e355139143cae.ctex::
+::res://Scenes/::1767001375
+camera_area.tscn::PackedScene::8932523699492001607::1767000591::0::1::::<><><>0<>0<><>::uid://okt43ukc6gwq::::res://scripts/camera_area.gd
+game.tscn::PackedScene::1572243867509463490::1767001375::0::1::::<><><>0<>0<><>::uid://dwadeie5pkfdg::::res://sprites/brackeys_platformer_assets/sprites/platforms(red).png<>uid://rx62opg8jmrd::::res://character_controller/example_character_controller.tscn<>uid://cbufeg5e7sbqh::::res://sprites/brackeys_platformer_assets/sprites/world_tileset(red).png<>uid://d22yyc75ajb1x::::res://sprites/brackeys_platformer_assets/sprites/world_tileset.png<>uid://bua6n3hml2x0g::::res://sprites/brackeys_platformer_assets/sprites/world_tileset(red)(background dark red).png<>uid://cfh2uwq4ignbx::::res://TRIAL OF A.png<>uid://yyspsl2tqte1::::res://sprites/brackeys_platformer_assets/sprites/persephone.png<>uid://dpthvgayspnvw::::res://sprites/brackeys_platformer_assets/sprites/Shade.png<>uid://d0i8miqfh1344::::res://Scenes/camera_area.tscn<>uid://b67kjh4mkw3ui::::res://scripts/camera_snapping.gd
+shade_evil.tscn::PackedScene::5520275921017137050::1767001212::0::1::::<><><>0<>0<><>::uid://cv65v5ne116sc::::res://sprites/brackeys_platformer_assets/sprites/Shade evil.png
+::res://scripts/::1767000335
+camera_area.gd::GDScript::1004494501367001324::1767000304::0::1::::<>Node2D<><>0<>0<><>::
+camera_snapping.gd::GDScript::4628958579697091760::1767000335::0::1::::<>Node2D<><>0<>0<><>::
+::res://sprites/::1767001212
+::res://sprites/brackeys_platformer_assets/::1767000304
+LICENSE & CREDITS.txt::TextFile::-1::1767000304::0::1::::<><><>0<>0<><>::
+::res://sprites/brackeys_platformer_assets/sprites/::1767001213
+coin.png::CompressedTexture2D::8152127081567416976::1766975184::1767001213::1::::<><><>0<>0<>c26c396c8872b54daab8aace7fd9a355<>res://.godot/imported/coin.png-2bb71c8550e4e2095bde0932743a23ed.ctex::
+fruit.png::CompressedTexture2D::4479960172598145521::1766975184::1767001213::1::::<><><>0<>0<>6c38a62ba1c957262783c54782765a2d<>res://.godot/imported/fruit.png-3f75c0c42111fc9b802408053da96b7f.ctex::
+knight.png::CompressedTexture2D::2677281287478287343::1766975184::1767001213::1::::<><><>0<>0<>db7716b70c46806c4aa593a28e262ca9<>res://.godot/imported/knight.png-95014d19369326a45c8a121188032432.ctex::
+persephone.png::CompressedTexture2D::1735197969854530622::1766975184::1767001213::1::::<><><>0<>0<>1b271c3987683fbb742a52c5cb9dbe1f<>res://.godot/imported/persephone.png-481c50f5e98e4f0c76bc7ba49be41056.ctex::
+platforms(red).png::CompressedTexture2D::8703606333019460096::1766975184::1767001213::1::::<><><>0<>0<>30321de926ccdb8b64fec7851b5720e1<>res://.godot/imported/platforms(red).png-65f626d3785e6b682e0d5649e5b8e104.ctex::
+platforms.png::CompressedTexture2D::4228592174850267889::1766975184::1767001213::1::::<><><>0<>0<>508778599f44d15e283503110763b81b<>res://.godot/imported/platforms.png-0a51bf9d12f2343599e2c43d942b349b.ctex::
+Shade evil.png::CompressedTexture2D::6312663401616238482::1766975184::1767001213::1::::<><><>0<>0<>bf563bd0f3376bb4356f0f63f4281f65<>res://.godot/imported/Shade evil.png-f7b0bc4a76c8d78c0a61e80038f6bbdd.ctex::
+Shade.png::CompressedTexture2D::8251780719853503148::1766975184::1767001213::1::::<><><>0<>0<>1d659fdd182bb53a673826b005cc0148<>res://.godot/imported/Shade.png-afbe4c3fba8ff01e09a5a41d2455f38f.ctex::
+world_tileset(red)(background dark red).png::CompressedTexture2D::3792104480578721148::1766975184::1767001213::1::::<><><>0<>0<>748045023f16916c2243e60eb43fc9dc<>res://.godot/imported/world_tileset(red)(background dark red).png-f687a7cf64a9ba1610bfe1faa999e269.ctex::
+world_tileset(red).png::CompressedTexture2D::4884628855954328891::1766975184::1767001213::1::::<><><>0<>0<>bf86eaa0f26011faedc69ab70c935075<>res://.godot/imported/world_tileset(red).png-1554accb589ffa1f4e8ad23c1c5d1a11.ctex::
+world_tileset.png::CompressedTexture2D::9111599251389764247::1766975184::1767001213::1::::<><><>0<>0<>2e86afc82422893b1be7a79e067d0ddc<>res://.godot/imported/world_tileset.png-181137f07a558c9781c4f473528d8124.ctex::
+::res://sprites/Character Animations/::1767000804
+sprite_frames.tres::SpriteFrames::6756053717642261740::1767000804::0::1::::<><><>0<>0<><>::uid://cw3dd6mbuxuwf::::res://sprites/Character Animations/Jump/player jump 48x48.png<>uid://cs0r2wpojhu2x::::res://sprites/Character Animations/Climb (facing side of player)/Player Side-Climb 48x48.png<>uid://crubom5c4hrtl::::res://sprites/Character Animations/Death/Player Death 64x64.png<>uid://dv8n8pk1jrni6::::res://sprites/Character Animations/Wall Land/player wall land 48x48.png<>uid://c2me6joyud5t::::res://sprites/Character Animations/Idle/Player Idle 48x48.png<>uid://b4qvxqn1ah476::::res://sprites/Character Animations/Land/player land 48x48.png<>uid://c3oia3txjcwrf::::res://sprites/Character Animations/Ledge Grab-Climb/player ledge climb 48x48.png<>uid://cxk8dphgcdfmx::::res://sprites/Character Animations/Run/player run 48x48.png<>uid://6vgx6kpo5se6::::res://sprites/Character Animations/Walk/PlayerWalk 48x48.png<>uid://c4c4nthl64kx4::::res://sprites/Character Animations/Wall Slide/player wall slide 48x48.png
+::res://sprites/Character Animations/Climb (facing side of player)/::1767000805
+Player Side-Climb 48x48.png::CompressedTexture2D::6088931581368933061::1766975184::1767000805::1::::<><><>0<>0<>ff96298bf22a03384fa0e8ededf8f5a3<>res://.godot/imported/Player Side-Climb 48x48.png-e24e3170672af590498438fde6199c5a.ctex::
+::res://sprites/Character Animations/Death/::1767000805
+Player Death 64x64.png::CompressedTexture2D::6007425659175637405::1766975184::1767000805::1::::<><><>0<>0<>08e7398539a097306ff76801c43f548f<>res://.godot/imported/Player Death 64x64.png-1fbdb2a4e25f0dc48f804ed30c8a9df1.ctex::
+::res://sprites/Character Animations/Idle/::1767000805
+Player Idle 48x48.png::CompressedTexture2D::196853276520548667::1766975184::1767000805::1::::<><><>0<>0<>9ac83f87f02b0eb17e34463637df3859<>res://.godot/imported/Player Idle 48x48.png-00104571158a82a678a5a59e35a939bb.ctex::
+::res://sprites/Character Animations/Jump/::1767000805
+player jump 48x48.png::CompressedTexture2D::6374987659731199833::1766975184::1767000805::1::::<><><>0<>0<>0aea7be3c05a70bb9d5653802ebdc61c<>res://.godot/imported/player jump 48x48.png-52ddd9b9b41917290f4eb7b623993dce.ctex::
+::res://sprites/Character Animations/Land/::1767000805
+player land 48x48.png::CompressedTexture2D::4456244185006595467::1766975184::1767000805::1::::<><><>0<>0<>d0bf8501642a782b4de001a2f6316c08<>res://.godot/imported/player land 48x48.png-97ade8e8d74cb93c958cecc631a64d93.ctex::
+::res://sprites/Character Animations/Ledge Grab-Climb/::1767000805
+player ledge climb 48x48.png::CompressedTexture2D::6767517514812311775::1766975184::1767000805::1::::<><><>0<>0<>d6c1c159b6e159ca10212288c64b88c9<>res://.godot/imported/player ledge climb 48x48.png-3b4556c5ccca22bc78eec171bebdbb87.ctex::
+::res://sprites/Character Animations/Run/::1767000805
+player run 48x48.png::CompressedTexture2D::6409838365683845115::1766975184::1767000805::1::::<><><>0<>0<>a0eb9569c8e6ff60b3714761ec120b00<>res://.godot/imported/player run 48x48.png-672e53d0f87cc9044402d414da366c63.ctex::
+::res://sprites/Character Animations/Walk/::1767000805
+PlayerWalk 48x48.png::CompressedTexture2D::2219613105204009375::1766975184::1767000805::1::::<><><>0<>0<>5ded65da477d8c9a53874752a7e29c6f<>res://.godot/imported/PlayerWalk 48x48.png-1d3745b535d3e18056e117370600f479.ctex::
+::res://sprites/Character Animations/Wall Land/::1767000805
+player wall land 48x48.png::CompressedTexture2D::8702201289959109307::1766975184::1767000805::1::::<><><>0<>0<>93e436eab3616de32154f08fb1f0cb42<>res://.godot/imported/player wall land 48x48.png-6c13539d75537140f7f4d34e35ceb489.ctex::
+Player Wall Land (left) 48x48.png::CompressedTexture2D::5434893775058908698::1766975184::1767000805::1::::<><><>0<>0<>e30f593e73b70c099d04d2019f897aa0<>res://.godot/imported/Player Wall Land (left) 48x48.png-53d901d7b9d3c28bf6d8f898ee9407a0.ctex::
+::res://sprites/Character Animations/Wall Slide/::1767000805
+player wall slide 48x48.png::CompressedTexture2D::6814231605807903819::1766975184::1767000805::1::::<><><>0<>0<>724d5cf7636578f911d7d30a82646d1f<>res://.godot/imported/player wall slide 48x48.png-5c171f4d737352141d0186aaf034637e.ctex::
+player wall slide (left) 48x48.png::CompressedTexture2D::7343883217741005088::1766975184::1767000805::1::::<><><>0<>0<>756e4748bdb7be6a69d6cec87ed09f8e<>res://.godot/imported/player wall slide (left) 48x48.png-325f1e7d18994a1b1d469b40a9de15b3.ctex::
