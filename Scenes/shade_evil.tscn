@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://ckwcexn5nfba5"]
+
+[ext_resource type="Texture2D" uid="uid://cv65v5ne116sc" path="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/Shade evil.png" id="1_do7md"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umw3l"]
+atlas = ExtResource("1_do7md")
+region = Rect2(0, 0, 45, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pb8f3"]
+atlas = ExtResource("1_do7md")
+region = Rect2(45, 0, 45, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5gje0"]
+atlas = ExtResource("1_do7md")
+region = Rect2(90, 0, 45, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w3mp5"]
+atlas = ExtResource("1_do7md")
+region = Rect2(135, 0, 45, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1hge"]
+atlas = ExtResource("1_do7md")
+region = Rect2(180, 0, 45, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_331p1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umw3l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pb8f3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5gje0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w3mp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1hge")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="Shade Evil" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_331p1")
