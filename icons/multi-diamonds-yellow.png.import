@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsnulkqnxl58g"
-path="res://.godot/imported/multi-diamonds-yellow.png-8ee7080563b6df0b75ced6a3d42ee970.ctex"
+path="res://.godot/imported/multi-diamonds-yellow.png-f123065251a0ce15154e355139143cae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-character-template-0c0574aa1e77a79fc571fccfb427a87397011124/addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png"
-dest_files=["res://.godot/imported/multi-diamonds-yellow.png-8ee7080563b6df0b75ced6a3d42ee970.ctex"]
+source_file="res://icons/multi-diamonds-yellow.png"
+dest_files=["res://.godot/imported/multi-diamonds-yellow.png-f123065251a0ce15154e355139143cae.ctex"]
 
 [params]
 

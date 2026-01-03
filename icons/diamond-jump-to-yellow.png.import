@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuadi4p6nau44"
-path="res://.godot/imported/diamond-jump-to-yellow.png-e0330f970c262d34e463b9a29bf520b8.ctex"
+path="res://.godot/imported/diamond-jump-to-yellow.png-0534aefe76eb5e5ab842ab581fba73a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-character-template-0c0574aa1e77a79fc571fccfb427a87397011124/addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png"
-dest_files=["res://.godot/imported/diamond-jump-to-yellow.png-e0330f970c262d34e463b9a29bf520b8.ctex"]
+source_file="res://icons/diamond-jump-to-yellow.png"
+dest_files=["res://.godot/imported/diamond-jump-to-yellow.png-0534aefe76eb5e5ab842ab581fba73a5.ctex"]
 
 [params]
 

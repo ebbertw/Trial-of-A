@@ -13,7 +13,6 @@ func has_snap_point() -> bool:
 	var v_colliding := ray_cast_down.is_colliding()
 	var h_colliding := ray_cast_side.is_colliding()
 	var exclusion_overlap: bool = exclusion.get_overlapping_bodies().size() > 0
-	print(v_colliding and h_colliding and not exclusion_overlap)
 	return v_colliding and h_colliding and not exclusion_overlap
 
 
